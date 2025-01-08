@@ -1,0 +1,40 @@
+{
+  "name": "eslint-config-shaw",
+  "version": "0.0.1",
+  "description": "Eslint configurations",
+  "main": "index.js",
+  "scripts": {
+    "eslint": "npx eslint --ext .js,.ts,.jsx,.tsx,.vue .",
+    "eslint:fix": "npx eslint --fix --ext .js,.ts,.jsx,.tsx,.vue .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shaw996/eslint-config-shaw.git"
+  },
+  "keywords": [
+    "eslint",
+    "rules"
+  ],
+  "author": "shawliu996@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shaw996/eslint-config-shaw/issues"
+  },
+  "homepage": "https://github.com/shaw996/eslint-config-shaw#readme",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^8.19.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-import-resolver-typescript": "^3.7.0",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-sort-destructure-keys": "^2.0.0",
+    "eslint-plugin-sort-keys-fix": "^1.1.2",
+    "eslint-plugin-unicorn": "^39.0.0",
+    "eslint-plugin-unused-imports": "^4.1.4",
+    "prettier": "^3.4.2"
+  },
+  "peerDependencies": {
+    "eslint": ">= 7 & < 9"
+  }
+}
