@@ -9,5 +9,3 @@ pnpm-lock.yaml
 !.*.ts
 
 .github
-.eslintrc
-.lintstagedrc.mjs

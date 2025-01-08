@@ -1,6 +1,6 @@
 # eslint-config-shaw
 
-一套我个人喜欢的的代码风格Eslint配置。
+一套个人喜欢的的代码风格Eslint配置。
 
 ## 规则
 

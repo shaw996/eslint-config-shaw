@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-shaw",
-  "version": "0.0.1",
-  "description": "Eslint configurations",
+  "version": "0.0.3",
+  "description": "一套个人喜欢的的代码风格Eslint配置。",
   "main": "index.js",
   "scripts": {
     "eslint": "npx eslint --ext .js,.ts,.jsx,.tsx,.vue .",
